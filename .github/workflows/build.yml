@@ -35,4 +35,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=minoli26_SonarQube_ba53f3bd-5c97-4f75-b32e-4fdff0b544c7 -Dsonar.projectName='SonarQube'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=minoli26_SonarQube_1f844848-edc7-4c39-ba70-0adaec12ef31 -Dsonar.projectName='SonarQube'
